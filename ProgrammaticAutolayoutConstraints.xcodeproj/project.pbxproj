@@ -14,7 +14,10 @@
 		E4034D4E20E6D3DC00D821F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4034D4C20E6D3DC00D821F6 /* LaunchScreen.storyboard */; };
 		E4034D5920E6D3DC00D821F6 /* ProgrammaticAutolayoutConstraintsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4034D5820E6D3DC00D821F6 /* ProgrammaticAutolayoutConstraintsTests.swift */; };
 		E4034D6420E6D3DC00D821F6 /* ProgrammaticAutolayoutConstraintsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4034D6320E6D3DC00D821F6 /* ProgrammaticAutolayoutConstraintsUITests.swift */; };
-		E4034D7220E6D49F00D821F6 /* BayBridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4034D7120E6D49F00D821F6 /* BayBridge.jpg */; };
+		E4034D7920E717ED00D821F6 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4034D7520E717ED00D821F6 /* 2.jpg */; };
+		E4034D7A20E717ED00D821F6 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4034D7620E717ED00D821F6 /* 1.jpg */; };
+		E4034D7B20E717ED00D821F6 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4034D7720E717ED00D821F6 /* 4.jpg */; };
+		E4034D7C20E717ED00D821F6 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4034D7820E717ED00D821F6 /* 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +51,10 @@
 		E4034D5F20E6D3DC00D821F6 /* ProgrammaticAutolayoutConstraintsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammaticAutolayoutConstraintsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4034D6320E6D3DC00D821F6 /* ProgrammaticAutolayoutConstraintsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticAutolayoutConstraintsUITests.swift; sourceTree = "<group>"; };
 		E4034D6520E6D3DC00D821F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4034D7120E6D49F00D821F6 /* BayBridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BayBridge.jpg; path = "../../../Autolayout-in-Code-Image-Example/Autolayout in Code Image Example/BayBridge.jpg"; sourceTree = "<group>"; };
+		E4034D7520E717ED00D821F6 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../../../Downloads/2.jpg; sourceTree = "<group>"; };
+		E4034D7620E717ED00D821F6 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../../Downloads/1.jpg; sourceTree = "<group>"; };
+		E4034D7720E717ED00D821F6 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = ../../../../Downloads/4.jpg; sourceTree = "<group>"; };
+		E4034D7820E717ED00D821F6 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = ../../../../Downloads/3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +105,11 @@
 		E4034D4220E6D3DB00D821F6 /* ProgrammaticAutolayoutConstraints */ = {
 			isa = PBXGroup;
 			children = (
-				E4034D7120E6D49F00D821F6 /* BayBridge.jpg */,
 				E4034D4320E6D3DB00D821F6 /* AppDelegate.swift */,
+				E4034D7620E717ED00D821F6 /* 1.jpg */,
+				E4034D7520E717ED00D821F6 /* 2.jpg */,
+				E4034D7820E717ED00D821F6 /* 3.jpg */,
+				E4034D7720E717ED00D821F6 /* 4.jpg */,
 				E4034D4520E6D3DB00D821F6 /* ViewController.swift */,
 				E4034D4720E6D3DB00D821F6 /* Main.storyboard */,
 				E4034D4A20E6D3DC00D821F6 /* Assets.xcassets */,
@@ -232,10 +241,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4034D7B20E717ED00D821F6 /* 4.jpg in Resources */,
 				E4034D4E20E6D3DC00D821F6 /* LaunchScreen.storyboard in Resources */,
-				E4034D7220E6D49F00D821F6 /* BayBridge.jpg in Resources */,
 				E4034D4B20E6D3DC00D821F6 /* Assets.xcassets in Resources */,
+				E4034D7920E717ED00D821F6 /* 2.jpg in Resources */,
 				E4034D4920E6D3DB00D821F6 /* Main.storyboard in Resources */,
+				E4034D7C20E717ED00D821F6 /* 3.jpg in Resources */,
+				E4034D7A20E717ED00D821F6 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
